@@ -1,4 +1,7 @@
-- Ex-Microsoft engineer with experience in information security.
+# Work
+
+- Lots of experience in information security.
+- Former Microsoft engineer.
 - I work primarily in C#, PowerShell, and TypeScript.
 
 <!---
