@@ -11,3 +11,7 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Apple Service Store
+.DS_Store
+
