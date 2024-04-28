@@ -1,0 +1,6 @@
+Flask
+nltk
+MarkupSafe
+nose
+pymongo
+bashlex
