@@ -6,6 +6,7 @@ START_DATE=$(date -u -Iseconds)
 OUTPUT_DIR=$HOME
 FINDINGS_FILE="$OUTPUT_DIR/audit-findings-$START_DATE.json"
 LOG_FILE="$OUTPUT_DIR/audit-logs-$START_DATE.log"
+ALLOW_SYSTEM_CHANGES=false
 
 function toLog() {
     echo "$(date -u -Iseconds): $*" >>"$LOG_FILE"
@@ -40,3 +41,15 @@ if service; then
 else
     toLog "WARNING: binary 'service' is not available"
 fi
+
+# Check world-writable, executable files
+
+find / -type f \( -perm -o+wx \) -exec ls -ld {} \;
+
+# fix with: find / -type f \( -perm -o+wx \) -exec chmod o-w {} \;
+
+# Check SSH config
+
+# Check users with login shell
+
+# Check sudoers file
