@@ -17,8 +17,8 @@
     - Expanded that into automated resolution through integration with incident management
     - Handed off the service to another team in 2022 when my team's scope changed
   - Lead engineer for retiring and replacing parts of the team's main application
-    - .NET Framework to .NET Core 3.5 migration
-    - .NET Core 3.5 to .NET 6 migration
+    - .NET Framework to .NET Core 3.1 migration
+    - .NET Core 3.1 to .NET 6 migration
   - Responsible for team's build pipelines' compliance and performance
 - 20 years experience in information security
   - Focused mainly on digital forensics and incident response
