@@ -1,9 +1,16 @@
 # Projects
 
-[Come see](https://github.com/jon-e-turner/react-timesense) what I am currently building!
+Come see what I am currently building!
+
+## [react-timesense](https://github.com/jon-e-turner/react-timesense)
 
 - React Native package publishing functional components
 - A full application using that package with Expo and SQLite
+
+## [react-redux-games](https://github.com/jon-e-turner/react-redux-games)
+
+- Simple app with clones of classic video games
+- React, React-Router, Vite, and React-Redux
 
 # Work
 
